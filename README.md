@@ -47,6 +47,3 @@ flutter build apk
 # Results
 
 ![Screenshot of App](Screenshot.jpeg)
-
-### Build APK
-[Apk File](build/app/outputs/apk/release/app-release.apk)
