@@ -1,12 +1,14 @@
-import 'package:audioplayers/audio_cache.dart';
-import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'components/CustomButton.dart';
+
+import 'package:audioplayers/audio_cache.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 typedef void OnError(Exception exception);
 
 void main() {
   runApp(new MaterialApp(
+    //setting up font
       theme: ThemeData(fontFamily: 'Quicksand'),
       debugShowCheckedModeBanner: false,
       home: AudioPlayerCustom()));
@@ -18,6 +20,7 @@ class AudioPlayerCustom extends StatefulWidget {
 }
 
 class _AudioPlayerCustom extends State<AudioPlayerCustom> {
+  // private variables for duration and position of slider.
   Duration _duration = new Duration();
   Duration _position = new Duration();
   AudioPlayer advancedPlayer;

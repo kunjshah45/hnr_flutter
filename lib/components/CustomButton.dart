@@ -5,8 +5,13 @@ class CustomButton extends StatelessWidget {
   final Function _onPressed;
   final bool _isPlayButton;
 
+  // Component/ Widget for all buttons
+
   CustomButton(this._text, this._onPressed, this._isPlayButton);
 
+
+  // the below code is for button play, pause and stop
+  // it also includes condition which checks for isPlayButton which display the purple color play button.
   @override
   Widget build(BuildContext context) {
     return _isPlayButton
