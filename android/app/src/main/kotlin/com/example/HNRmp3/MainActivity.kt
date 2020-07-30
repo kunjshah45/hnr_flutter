@@ -1,4 +1,4 @@
-package com.example.HNRmp3
+package com.example.MusicPlayer
 
 import io.flutter.embedding.android.FlutterActivity
 
