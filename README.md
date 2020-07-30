@@ -1,17 +1,17 @@
-# HNRmp3
-
-A static music player application as a test.
+# Music player App
+Open source music player.
+A static music player application made in flutter. Boilerplate for music application.
 
 ## Getting Started
 
 ### Pre-requisite
 - Android Studio Installed, SDK path which is needed in local.properties
 - Flutter SDK, path required in local.properties
-- A cup of coffee and code editor for reviewing the code :)
+- A cup of coffee and code editor for understanding and cchanging the code as you require. :)
 
 ### Clone
 ```
-git clone https://github.com/kunjshah45/hnr_flutter.git
+git clone https://github.com/kunjshah45/music_player_flutter.git
 ```
 
 ### Install external Packages
